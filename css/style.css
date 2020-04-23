@@ -162,6 +162,12 @@ body {
 
 /*============= PORTFOLIO SECTION =============*/
 
+/*====== List ======*/
+
+.ul{
+   list-style-image: url('../img/reclaim\ list.png');
+}
+
 
 
 /*============= TESTIMONIALS SECTION =============*/
@@ -182,7 +188,7 @@ body {
 }
 
 .form-control {
-   width: 600px;
+   width: 500px;
    border-bottom: 1px solid gray;
    font-size: 18px;
    margin-bottom: 16px;

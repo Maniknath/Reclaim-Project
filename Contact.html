@@ -15,15 +15,58 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <div id="contact">
+        <!-- Navigation -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+            <a href="index.html" class="navbar-brand"><img src="img/ReClaim-Large Logo2.png" alt="Logo"
+                    title="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="#navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">What is Coaching?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">reCLAIM Can Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navigation -->
+    </div>
     <div id="contact" class="offset">
-        <div class="container-fluid text-center py-5 mx-0">
-            <h2 class="heading">Contact US</h2>
+        <div class="container-fluid text-center py-3 mt-8 ">
+            
         </div>
         <div class="jumbotron text-center pt-5 mb-0">
+            <div class="contact-title">
+                <h2 class="heading">Contact US</h2>
+                <p><a href="index.html"><img src="img/RCS Logo Transparent.png"></a></p>
+                <h4>Please use the contact form below</h4> 
+                <h4>If you have any 
+					questions or to schedule your free 60-minute 
+					coaching session</h4>
+				<h4>We will get back to you as soon a possible.</h4>
+			</div>
             <div class="row justify-content-center mt-0">
                 <div class="contact-form pt-5 mb-0">
-                    
+
                     <form id="contact-form" method="post" action="">
                         <input firstname="name" type="text" class="form-control" placeholder="First Name" required><br>
                         <input lastname="name" type="text" class="form-control" placeholder="Last Name" required><br>
